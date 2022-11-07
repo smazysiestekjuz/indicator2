@@ -22,5 +22,7 @@ int main()
     tablica[1] = 2.3;
     tablica[2] = 0.75;
 
+    cout<<"Srednia wynosi: "<<srednia(tablica,3);
+
     return 0;
 }
