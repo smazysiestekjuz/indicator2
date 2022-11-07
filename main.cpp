@@ -9,6 +9,7 @@ float srednia(float *tab, int ile)
     for (int i=0; i<ile; i++)
     {
         suma+=*tab;
+        tab++;
     }
 }
 
