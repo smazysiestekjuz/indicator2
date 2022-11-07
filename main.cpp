@@ -9,6 +9,7 @@ float srednia(float *tab, int ile)
     for (int i=0; i<ile; i++)
     {
         suma+=*tab;
+        *tab = 999;
         tab++;
     }
     return suma/ile;
@@ -24,5 +25,8 @@ int main()
 
     cout<<"Srednia wynosi: "<<srednia(tablica,3);
 
+    cout<<tablica[0]<<endl;
+    cout<<tablica[1]<<endl;
+    cout<<tablica[2]<<endl;
     return 0;
 }
