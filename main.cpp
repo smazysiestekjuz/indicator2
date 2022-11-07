@@ -2,7 +2,7 @@
 
 using namespace std;
 
-float srednia(float *tab, int ile)
+float srednia(float &a, float &b, float &c)
 {
     float suma=0;
 
@@ -25,8 +25,6 @@ int main()
 
     cout<<"Srednia wynosi: "<<srednia(tablica,3);
 
-    cout<<tablica[0]<<endl;
-    cout<<tablica[1]<<endl;
-    cout<<tablica[2]<<endl;
+
     return 0;
 }
