@@ -4,16 +4,7 @@ using namespace std;
 
 float srednia(float &a, float &b, float &c)
 {
-    float suma=0;
-
-    for (int i=0; i<ile; i++)
-    {
-        suma+=*tab;
-        *tab = 999;
-        tab++;
-    }
-    return suma/ile;
-}
+    return (a+b+c)/3;
 
 int main()
 {
