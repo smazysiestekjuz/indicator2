@@ -17,11 +17,11 @@ float srednia(float *tab, int ile)
 
 int main()
 {
-    float tablica[3];
+    float a,b,c;
 
-    tablica[0] = 1.5;
-    tablica[1] = 2.3;
-    tablica[2] = 0.75;
+    a = 1.5;
+    b = 2.3;
+    c = 0.75;
 
     cout<<"Srednia wynosi: "<<srednia(tablica,3);
 
