@@ -14,7 +14,7 @@ int main()
     b = 2.3;
     c = 0.75;
 
-    cout<<"Srednia wynosi: "<<srednia(tablica,3);
+    cout<<"Srednia wynosi: "<<srednia(a,b,c);
 
 
     return 0;
