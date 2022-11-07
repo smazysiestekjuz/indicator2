@@ -3,6 +3,9 @@
 using namespace std;
 
 float srednia(float *tab, int ile)
+{
+    float suma=0;
+}
 
 int main()
 {
