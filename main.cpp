@@ -11,6 +11,7 @@ float srednia(float *tab, int ile)
         suma+=*tab;
         tab++;
     }
+    return suma/ile;
 }
 
 int main()
